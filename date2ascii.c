@@ -1,8 +1,9 @@
-/* datum2ascii.c
-   Gibt ein beliebiges Datum als ASCII Code aus
+/* date2ascii.c
+   Gibt ein beliebiges Datum (z.B. Geburtsdatum) als ASCII Code aus
    25.10.2025, v0.1
 */
 #include <stdio.h>
+#define GEBDATUM "23.09.1960" /* gewuenschtes Datum hier eintragen */
 
 int toAscii(int zeichen) {
   if (zeichen < 0) /* fuer Zeichen des 8. Bits, fuer ein Datum nicht unbedingt notwendig */
@@ -11,10 +12,10 @@ int toAscii(int zeichen) {
 }
 
 int main() {
-  char * gebDat = "23.09.1960"; /* gewuenschtes Datum hier eintragen */
+  char * datum = GEBDATUM;
   int i;
   for (i = 0; i <= 9; i++)
-    printf("%d ", toAscii(gebDat[i]));
+    printf("%d ", toAscii(datum[i]));
   printf("\n");
   return 0;
 }
