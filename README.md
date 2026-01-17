@@ -1,3 +1,3 @@
 # hello-world
-Test repository to try out things and learn new stuff.
+Repository for trying out things and learn new stuff. Also used to store sample scripts and some documentation.
 

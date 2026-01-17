@@ -1,0 +1,15 @@
+Repo                      16.01.25
+--------------------------------------------------------------
+ABoehlen.github.io,        160.000,
+arcview_editor,              0.486,
+arcview_layout_tools,        0.323,
+arcview_splinepolylines,     0.051,
+arcview_table_tools,         0.467,
+arcview_utilities,           0.205,
+calculate_distances,         0.017,
+gpx2shp_lv03,                2.790,
+grid2mlt,                    2.330,
+hello-world,                 0.090,
+jahresmeisterschaft_fsb,     3.670,
+pdc2pdf,                    13.900,
+skyplot2pano,               19.100,
