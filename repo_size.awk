@@ -5,7 +5,7 @@ BEGIN {
 }
 
 NR > 2 {
-  sum = sum + $2;
+  sum = sum + $3;
 }
 
 END {
